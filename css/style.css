@@ -1,0 +1,109 @@
+.mybrand {
+    text-transform: uppercase;
+    font-weight: 800;  
+}
+a.navbar-brand.mybrand {
+    color: #003366;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #003366;
+}
+.mynav{
+    background-color:transparent;
+    padding-left: 37px;
+    padding-right: 37px;
+}
+
+ul.nav.navbar-nav.navbar-right.navcolor li>a{
+    color: #003366;
+}
+section {
+    min-height: 600px;
+}
+
+.home .char1 {
+    font-size: 30px;
+    color: red;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+} 
+.bckimg {
+    background-image: url(../img/backgroundimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h1, .home,.aboutintro, .resumeintro, .contactintro {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid #003366;
+    border-width: medium;
+    max-width: 100px
+}
+p {
+    color: white;
+    font-size: 1.30em;
+    font-weight: 600;
+    margin: 0 0 1em;
+}
+img.img-circle.headshot {
+    height: 300px;
+    width: 300px;
+}
+.buttonmove, .buttonview, .submitbutton{
+    color: white;
+    background-color: #003366;
+    border-color: #003367;
+    text-transform: uppercase;
+    padding: 10px 2em;
+    margin-top: 10px;
+    border-radius: 0px;
+}
+.buttonmove:hover, .buttonview:hover, .submitbutton {
+    color: white;
+    background-color: #003366;
+    border-color: #003366;
+}
+.contentcontact {
+    padding: 100px 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    text-align: center;
+}
+textarea {
+    width: 100%;
+    height: 93px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+}
+.about {
+    min-height: 600px;
+    background-color: #003366;
+    opacity: .90;
+}
+section#contact {
+    background-color: #003366;
+    opacity: .90;
+}
+h1.home, .resumeintro{
+    margin-top:150px;
+}
+button.btn.btn-default.submitbutton {
+    border-color: white;
+    border-width: thick;
+}
